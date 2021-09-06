@@ -25,7 +25,7 @@ data = [
 def hello():
     return "Hello นางสาวณัฎฐวัลลภ์ สุทธิวารี เลขที่ 28 ม4|9 "
 
-@app.route('/api',methods=['GET']
+@app.route('/api',methods=['GET'])
 def hello1():
     return jsonify(data)
 
